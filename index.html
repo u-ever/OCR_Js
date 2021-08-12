@@ -9,11 +9,13 @@
     <script src='https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js'></script>
 </head>
 <body>
-    <div id="button">
-        <input type="button" value="Ler Imagem" onclick="screenShot()">
-    </div>
+    <h1>Converta sua imagem em texto</h1>
+    <ul>
+        <li>1º Tire um print do texto desejado e salve na pasta OCR_JS com o nome "print.png"</li>
+        <li>2º Siga a instrução abaixo:</li>
+    </ul>
     <div id="resultado">
-        Clique no botão para ler a imagem.
+        <a href="#" id="btn" type="button" onclick="screenShot()">Clique aqui para ler a imagem.</a>
     </div>
     <script src="script.js"></script>
 </body>
