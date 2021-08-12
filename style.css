@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(49, 59, 56);
+}
+
+#button {
+    margin: auto;
+    color: black;
+    text-align: center;
+    font-size: xx-large; 
+}
+
+#button input {
+    margin: auto;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#resultado {
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border: 20vw solid rgb(49, 59, 56);
+    font-size: xx-large;
+}
