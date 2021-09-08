@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(39, 76, 97);
+    background-image: linear-gradient(rgb(39, 76, 97), rgb(76, 141, 179), rgb(86, 183, 240));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-size: x-large; 
 }
 
@@ -7,6 +9,7 @@ h1 {
     color: antiquewhite;
     text-align: center;
     background-color: rgb(65, 110, 110);
+    border-radius: 10px;
     margin: 0;
     padding: 30px;
 }
@@ -29,6 +32,7 @@ ul {
 #btn {
     text-decoration: none;
     color: black;
+    font-weight: 600;
 
 }
 
